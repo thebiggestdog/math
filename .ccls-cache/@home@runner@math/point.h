@@ -2,10 +2,10 @@
 #define POINT_H
 
 class Point {
-public:
+private:
     int x {};
     int y {};
-
+public:
     Point();
     Point(int x);
     Point(int x, int y);
